@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+}
+
+.square-big {
+    width: 300px;
+    height: 300px;
+}
+
+
+.live1 {
+    width: 500px;
+    height: 300px;
+    background-color: red;
+    position: relative;
+    margin:10px;
+
+}
+
+.live1 .blue {
+    background-color: blue;
+}
+
+.live1 .yellow {
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+}
+
+
+
+
+.live2 {
+    width: 80%;
+    height: 300px;
+    background-color: red;
+    position: relative;
+    margin:10px;
+}
+
+.live2 .blue-1 {
+    background-color: blue;
+
+}
+
+.live2 .blue-2 {
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.live2 .blue-3 {
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+
+.live3 {
+    width: 800px;
+    height: 600px;
+    background-color: green;
+    margin:10px;
+    position: relative;
+}
+
+.live3 .blue-1 {
+    background-color: blue;
+    display: inline-block;
+    position: relative;
+}
+
+.live3 .blue-2 {
+    background-color: blue;
+    display: inline-block;
+    position: relative;
+
+}
+ 
+.live3 .blue-1 .red-1 {
+    background-color: red;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.live3 .blue-1 .red-2 {
+    background-color: red;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+
+
+.live3 .blue-2 .red-1 {
+    background-color: red;
+}
+
+.live3 .blue-2 .red-2 {
+
+    background-color: red;
+
+    position: relative;
+    left: 10px;
+
+    /* margin-left: 10px; */
+
+}

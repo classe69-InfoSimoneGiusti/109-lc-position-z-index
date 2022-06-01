@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prove z-index</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    
+    <!-- 
+        Z-index più grande, vince su z-index più piccolo;
+        Se elementi non hanno position definito, z-index di default vale 1 e non è ridefinibile
+        Se più elementi sono sovrapposti, vince l'elemento con pari z-index con position diverso da static
+    -->
+
+    <div class="container">
+        <div class="square blue">
+            
+        </div>
+
+        <div class="square yellow">
+            
+        </div>
+    </div>
+</body>
+</html>
